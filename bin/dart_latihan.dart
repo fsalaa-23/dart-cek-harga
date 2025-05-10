@@ -82,8 +82,10 @@ void main(List<String> arguments) {
     print(
       "Cek Harga Barang Etalase\nNama Barang : $namabarang\nHarga Barang : $hargabarang",
     );
-    print("Total Harga :$totalharga");
-    print("Diskon :$diskon");
+    print(
+      "Total Harga :" + totalharga.toString(),
+    ); // mengambil 'total harga' dengan mengubah 'total harga' yang sebelumnya double ke string
+    print("Diskon :$diskon"); //mengambil diskon menggunakan interpolation
     print("Total Bayar :$totalbayar");
     print("");
 
